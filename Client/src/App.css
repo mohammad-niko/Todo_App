@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 50px;
+  min-height: 10vh;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.auth-btn {
+  position: absolute;
+  right: 10px;
+}
+
+.main {
+  margin-top: 20px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  width: 45%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-control {
+  width: 86.5%;
+  display: inline;
+}
+
+.task-container {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  /* overflow-y: auto; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+  list-style-type: none; */
+}
+
+.task-item {
+  height: 50px;
+  width: 100%;
+  list-style: none;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  width: 89%;
+  overflow-y: auto;
+}
+
+.edit-input {
+  width: 90%;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+}

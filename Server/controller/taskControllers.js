@@ -66,7 +66,6 @@ export const editTask = async (req, res) => {
       },
       { new: true }
     );
-console.log(upDatedTask);
     res
       .status(200)
       .json({ message: "task updated successfully", task: upDatedTask });
